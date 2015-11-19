@@ -1,0 +1,23 @@
+{
+  "name": "echo_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JY",
+  "license": "ISC",
+  "dependencies": {
+    "colors"           : "*",
+    "graceful-fs"      : "3.0.8",
+    "express"          : "4.x",
+    "forever"          : "^0.14.1",
+    "node-crontab"     : "0.0.8",
+    "nodemon"          : "*",
+    "q"                : "1.1.2",
+    "request"          : "2.51.0",
+    "usage"            : "0.5.0",
+    "morgan"           : "1.5.3"
+  }
+}
